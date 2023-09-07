@@ -1,0 +1,102 @@
+* {padding: 0; margin: 0;  box-sizing: border-box ;}
+
+body {font-family: 'Mulish', sans-serif; font-size: 1.6rem;
+    background-color: #ffffff;}
+
+
+nav, footer { background-color: #065E7C; text-align: center;}
+
+nav {height: 7.2rem;
+  display: flex;
+  align-items: center;justify-content: center;  gap: 2.5rem; margin-bottom: 4.4rem;}
+    
+:root { font-size: 62.5%}
+    
+.paw { border-radius: 99rem;}
+    
+.jojo {border-radius: 99rem; overflow: hidden;}
+    
+.input-wrapper label { height: 1px;height: 1px; overflow: hidden; position: absolute;}
+    
+.input-wrapper input  {font-family: 'Mulish', sans-serif; padding: 1.6rem; background: rgba(255, 255, 255, 0.20);
+      border: 0; border-radius: .4rem;font-size: 1.6rem;font-weight: 600; box-sizing: content-box;}
+      
+      
+.input-wrapper input::placeholder { color: #fff;}
+
+main { margin: auto;  padding: 0 2.6rem 3.9rem 2.2rem; margin-inline:auto ;}
+
+main p {font-family: 'Mulish', sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400; padding-bottom: 3.4rem;}
+
+.section .cat { width: 100%;}
+
+
+h1 { padding-bottom: .8rem;}
+
+
+h2 {padding-bottom: 3.2rem;}
+
+h3 {font-family: 'Mulish', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;line-height: 160%;}
+
+.item p {color: #121214;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 160%;  }
+
+
+footer { font-family: 'Mulish', sans-serif; 
+    height: 6rem; display: flex;
+    justify-content: center; align-items: center;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: normal; }
+
+
+
+.item {
+    display: grid;
+    grid-template-areas:
+      "image title"
+      "image description";
+      gap: 1rem;}
+  
+  .item > img {
+    grid-area: image;
+    max-height: 100%;}
+  
+  .item > h3 {
+    grid-area: title; }
+  
+  .item > p {  grid-area: description;}
+
+ 
+
+
+
+@media (min-width: 770px) {
+
+
+main {display: flex; flex-direction: row; gap: 3.2rem; max-width: fit-content;} 
+
+.section { max-width: 80rem; min-height: 87rem;}
+
+.galery { max-width: 38rem; min-height: 51rem;}
+
+.conteiner { display: flex;  gap: 1.2rem; padding-top: 3.2rem; padding-bottom: 3.2rem;}
+
+.cima, .baixo {  width: 4rem; height: 4rem;  }
+
+h1 { padding-right: 23rem;}
+
+
+
+.input-wrapper input  {width: 108rem;}
+
+}
